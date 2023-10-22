@@ -1,12 +1,12 @@
 function dstwr_page_attachments_alter(&$vars) {
-  $viewport = [
+  $viewport = array(
     '#type' => 'html_tag',
     '#tag' => 'meta',
-    '#attributes' => [
+    '#attributes' => array(
       'name' => 'viewport',
       'content' => 'width=device-width, initial-scale=1, viewport-fit=cover'
-    ]
-  ];
+    )
+  );
 
   $vars['#attached']['html_head'][] = [$viewport, 'viewport'];
 }
