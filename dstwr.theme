@@ -1,4 +1,4 @@
-function dstwr_page_attachments_alter(&$vars) {
+function dstwr_preprocess_html(&$variables) {
   $viewport = array(
     '#type' => 'html_tag',
     '#tag' => 'meta',
@@ -8,5 +8,5 @@ function dstwr_page_attachments_alter(&$vars) {
     )
   );
 
-  $vars['#attached']['html_head'][] = [$viewport, 'viewport'];
+  $variables['#attached']['html_head'][] = [$viewport, 'viewport'];
 }
