@@ -1,6 +1,6 @@
 name: TWR Theme
 type: theme
-base theme: false
+base theme: stable9
 description: 'Travel With Reason Theme For Drupal'
 core_version_requirement: ^9 || ^10 
 libraries:
