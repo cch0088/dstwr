@@ -5,3 +5,16 @@ description: 'Travel With Reason Theme For Drupal'
 core_version_requirement: ^9 || ^10 
 libraries:
   - dstwr/global-styling
+regions:
+  header: 'Header'
+  primary_menu: 'Main menu'
+  secondary_menu: 'Secondary menu'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  section_nav: 'Section Nav'
+  breadcrumb: 'Breadcrumb'
+  page_title: 'Page Title'
+  local_tasks: 'Local Tasks'
+  content: 'Content'
+  footer: 'Footer'
+  
