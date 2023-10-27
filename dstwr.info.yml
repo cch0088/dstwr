@@ -14,7 +14,5 @@ regions:
   section_nav: 'Section Nav'
   breadcrumb: 'Breadcrumb'
   page_title: 'Page Title'
-  local_tasks: 'Local Tasks'
   content: 'Content'
   footer: 'Footer'
-  
