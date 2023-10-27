@@ -1,12 +1,10 @@
 function dstwr_preprocess_html(&$variables) {
-  $viewport = array(
+  $variables['html_head'] = [
     '#type' => 'html_tag',
     '#tag' => 'meta',
-    '#attributes' => array(
+    '#attributes' => [
       'name' => 'viewport',
-      'content' => 'width=device-width, initial-scale=1, viewport-fit=cover'
-    )
-  );
-
-  $variables['#attached']['html_head'][] = [$viewport, 'viewport'];
+      'content' => 'width=device-width, initial-scale=1, viewport-fit=cover',
+    ],
+  ];
 }
