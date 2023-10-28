@@ -45,21 +45,13 @@
 #}
 <div id="root">
   <header role="banner">
-    <div id="head-nav-bar">
-      {{ page.header }}
-    </div>
-    <div id="usercontrol">
-      {{ page.secondary_menu }}
-    </div>
+    {{ page.header }}
+    {{ page.secondary_menu }}
   </header>
 
   <main role="main">
-    <div id="nav-container">
-      {{ page.primary_menu }}
-    </div>
-    <div id="home-content" tabindex="-1">
-      {{ page.content }}
-    </div>
+    {{ page.primary_menu }}
+    {{ page.content }}
   </main>
 
   {% if page.footer %}
