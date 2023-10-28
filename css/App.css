@@ -36,17 +36,17 @@ header #block-dstwr-site-branding a img {
   margin-top: -6px;
 }
 
-#block-dstwr-account-menu {
+header #block-dstwr-account-menu {
   position: relative;
   float: right;
   right: 42px;
 }
 
-#block-dstwr-account-menu ul {
+header #block-dstwr-account-menu ul {
   margin-top: 10px;
 }
 
-#block-dstwr-account-menu ul li {
+header #block-dstwr-account-menu ul li {
   border-radius: 8px;
   display: inline-block;
   margin-left: 4px;
@@ -57,12 +57,12 @@ header #block-dstwr-site-branding a img {
   text-align: center;
 }
 
-#block-dstwr-account-menu ul li a {
+header #block-dstwr-account-menu ul li a {
   color: white;
   text-decoration: none;
 }
 
-#block-dstwr-account-menu ul li:hover {
+header #block-dstwr-account-menu ul li:hover {
   background: #4F8A7C;
   cursor: pointer;
 }
