@@ -1,4 +1,4 @@
-function theme_preprocess_html(&$variables) {
+function dstwr_preprocess_html(&$variables) {
   $viewport = [
     '#tag' => 'meta',
     '#attributes' => [
