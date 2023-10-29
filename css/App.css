@@ -65,6 +65,19 @@ header #block-dstwr-account-menu .menu__link:hover {
   background: #4F8A7C;
 }
 
+main #content .messages-list {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 8px;
+  background: rgba(0,190,0);
+  text-align: center;
+  padding: 16px;
+  width: 400px;
+  box-shadow: 0px 8px 8px lightgray;
+}
+
 main #block-dstwr-main-menu {
   position: absolute;
   left: 32px;
@@ -112,12 +125,6 @@ main #content article {
   align-items: center;
 }
 
-main #content p {
-  font-size: x-large;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
 footer {
   padding-top: 6px;
   padding-bottom: 6px;
@@ -128,7 +135,7 @@ footer {
   font-size: x-small;
 }
 
-#user-login-form {
+form {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -142,9 +149,10 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
-#user-login-form .form-item {
+form .form-item {
   margin-top: 4px;
   margin-bottom: 4px;
   width: 300px;
@@ -153,19 +161,18 @@ footer {
   align-items: center;
 }
 
-#user-login-form .form-required {
+form .form-required {
   margin: 4px;
   font-size: large;
   font-weight: bold;
 }
 
-#user-login-form .description
+form .description
 {
   font-size: x-small;
-  text-align: center;
 }
 
-#user-login-form .form-text {
+form .form-text {
   margin: 4px;
   padding: 4px;
   width: 240px;
@@ -174,7 +181,7 @@ footer {
   text-align: center;
 }
 
-#user-login-form .form-submit {
+form .form-submit {
   margin: 20px;
   width: 140px;
   height: 40px;
