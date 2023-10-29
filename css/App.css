@@ -18,9 +18,9 @@ header {
   box-shadow: 0px 8px 8px lightgray;
 }
 
-header #block-dstwr-site-branding a {
+header #site-name {
   position: relative;
-  left: 14px;
+  left: 30px;
   top: 12px;
   color: white;
   font-size: x-large;
@@ -31,9 +31,12 @@ header #block-dstwr-site-branding a {
   margin-left: 18px;
 }
 
-header #block-dstwr-site-branding a img {
+header #site-logo img {
+  position: relative;
+  left: 32px;
+  top: 5px;
   height: 80px;
-  margin-top: -6px;
+  float: left;
 }
 
 header #block-dstwr-account-menu {
