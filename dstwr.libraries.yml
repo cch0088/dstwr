@@ -6,7 +6,6 @@ global-styling:
       css/mobile.css: {}
     component:
       css/form.css: {}
-      css/effects.css: {}
   js:
     js/main.js: {}
   dependencies:
