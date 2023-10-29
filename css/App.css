@@ -42,10 +42,10 @@ header #site-logo img {
 header #block-dstwr-account-menu {
   position: relative;
   float: right;
-  right: 42px;
-  top: -5px;
+  padding-right: 12px;
+  right: 30px;
+  top: -6px;
 }
-
 
 header #block-dstwr-account-menu .menu__item {
   display: inline-block;
