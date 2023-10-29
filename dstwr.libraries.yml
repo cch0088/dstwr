@@ -1,17 +1,14 @@
 global-styling:
   version: VERSION
   css:
-    main:
+    base:
       css/main.css: {}
-    mobile:
       css/mobile.css: {}
-    form:
+    component:
       css/form.css: {}
-    effects:
       css/effects.css: {}
   js:
-    main:
-      js/main.js: {}
+    js/main.js: {}
   dependencies:
     - core/drupal
     - core/jquery
