@@ -91,7 +91,7 @@ main #block-dstwr-main-menu .menu__link:hover {
   border-bottom: 1px solid;
 }
 
-main #block-dstwr-content {
+main #content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +99,7 @@ main #block-dstwr-content {
   overflow-y: scroll;
 }
 
-main #block-dstwr-content article {
+main #content article {
   margin-top: 3em;
   margin-bottom: 20px;
   border-radius: 16px;
@@ -112,7 +112,7 @@ main #block-dstwr-content article {
   align-items: center;
 }
 
-main #block-dstwr-content p {
+main #content p {
   font-size: x-large;
   font-weight: bold;
   margin-bottom: 20px;
