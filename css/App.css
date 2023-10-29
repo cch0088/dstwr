@@ -105,33 +105,23 @@ main #block-dstwr-main-menu .menu__link:hover {
 }
 
 main #content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 78vh;
+  position: relative;
+  left: 60px;
+  top: 30px;
   overflow-y: scroll;
-}
-
-main #content article {
-  margin-top: 3em;
-  margin-bottom: 20px;
   border-radius: 16px;
   box-shadow: 0px 4px 8px lightgray;
   padding: 20px;
-  width: 85%;
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 footer {
   padding-top: 6px;
-  padding-bottom: 6px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding-bottom: 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
   font-size: x-small;
 }
 
@@ -199,17 +189,9 @@ form .form-submit {
   backdrop-filter: blur(3px);
 }
 
-@media screen and (min-width: 750px) { main #block-dstwr-content article { width: 55%; } }
-@media screen and (min-width: 900px) { main #block-dstwr-content article { width: 60%; } }
-@media screen and (min-width: 1000px) { main #block-dstwr-content article { width: 65%; } }
-@media screen and (min-width: 1200px) { main #block-dstwr-content article { width: 70%; } }
-@media screen and (min-width: 1350px) { main #block-dstwr-content article { width: 75%; } }
-@media screen and (min-width: 1700px) { main #block-dstwr-content article { width: 80%; } }
-@media screen and (min-width: 2200px) { main #block-dstwr-content article { width: 85%; } }
-
 @media screen and (max-width: 750px) {
-  main #block-dstwr-content article {
-    width: 80%;
+  main #content {
+    width: 60%;
   }
   
   header {
