@@ -43,31 +43,27 @@ header #block-dstwr-account-menu {
   position: relative;
   float: right;
   right: 42px;
+  top: -5px;
 }
 
-header #block-dstwr-account-menu ul {
-  margin-top: 10px;
-}
 
-header #block-dstwr-account-menu ul li {
-  border-radius: 8px;
+header #block-dstwr-account-menu .menu__item {
   display: inline-block;
-  margin-left: 4px;
-  padding: 6px 8px 6px 8px;
-  width: 75px;
-  background: black;
-  font-size: small;
-  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 5px;
 }
 
-header #block-dstwr-account-menu ul li a {
+header #block-dstwr-account-menu .menu__link {
   color: white;
+  background: black;
+  border-radius: 8px;
+  padding: 6px 24px 6px 24px;
+  font-size: small;
   text-decoration: none;
 }
 
-header #block-dstwr-account-menu ul li:hover {
+header #block-dstwr-account-menu .menu__link:hover {
   background: #4F8A7C;
-  cursor: pointer;
 }
 
 main #block-dstwr-main-menu {
@@ -77,12 +73,12 @@ main #block-dstwr-main-menu {
   margin-top: 40px;
 }
 
-main #block-dstwr-main-menu ul li {
+main #block-dstwr-main-menu .menu__item {
   margin-left: -40px;
   list-style: none;
 }
 
-main #block-dstwr-main-menu ul li a {
+main #block-dstwr-main-menu .menu__link {
   display: inline-block;
   color: black;
   margin: 10px;
@@ -92,7 +88,7 @@ main #block-dstwr-main-menu ul li a {
   border-bottom: 1px solid transparent;
 }
 
-main #block-dstwr-main-menu ul li a:hover {
+main #block-dstwr-main-menu .menu__link:hover {
   border-bottom: 1px solid;
 }
 
@@ -418,9 +414,9 @@ footer {
     height: 77px;
   }
 
-  header #block-dstwr-site-branding a {
+  header #site-name {
     top: 5px;
-    left: 4px;
+    left: 8px;
     width: 70px;
     font-size: large;
     position: relative;
@@ -428,9 +424,10 @@ footer {
     font-size: large;
   }
   
-  header #block-dstwr-site-branding a img {
+  header #site-logo img {
     position: relative;
-    top: 10px;
+    top: 8px;
+    left: 3px;
     height: 60px;
   }
   
@@ -449,7 +446,7 @@ footer {
     align-items: center;
   }
 
-  main #block-dstwr-main-menu ul li a {
+  main #block-dstwr-main-menu .menu__link {
     margin-top: 0px;
     text-align: center;
     width: auto;
