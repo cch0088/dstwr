@@ -80,9 +80,9 @@ main #content .messages-list {
 
 main #block-dstwr-main-menu {
   position: absolute;
-  left: 32px;
+  transform: translateX(36px);
   width: 120px;
-  margin-top: 40px;
+  margin-top: 32px;
 }
 
 main #block-dstwr-main-menu .menu__item {
