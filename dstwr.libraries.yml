@@ -1,5 +1,14 @@
 global-styling:
   version: VERSION
   css:
-    theme:
-      css/App.css: {}
+    main:
+      css/main.css: {}
+    mobile:
+      css/mobile.css: {}
+    form:
+      css/form.css: {}
+    effects:
+      css/effects.css: {}
+  js:
+    main:
+      js/main.js: {}

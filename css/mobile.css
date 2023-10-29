@@ -1,0 +1,46 @@
+@media screen and (max-width: 750px) {
+    main #content {
+      width: 60%;
+    }
+    
+    header {
+      height: 77px;
+    }
+  
+    header #site-name {
+      top: 5px;
+      left: 8px;
+      width: 70px;
+      font-size: large;
+      position: relative;
+      margin-left: 0;
+      font-size: large;
+    }
+    
+    header #site-logo img {
+      position: relative;
+      top: 8px;
+      left: 3px;
+      height: 60px;
+    }
+    
+    header #block-dstwr-account-menu {
+      right: 8px;
+      width: auto;
+      text-align: right;
+    }
+  
+    main #block-dstwr-main-menu {
+      margin-top: 20px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    main #block-dstwr-main-menu .menu__link {
+      margin-top: 0px;
+      text-align: center;
+      width: auto;
+    }
+}
