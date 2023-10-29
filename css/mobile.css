@@ -25,13 +25,17 @@
   }
   
   header #block-dstwr-account-menu {
-    right: 8px;
-    width: auto;
+    right: 5px;
+    width: 240px;
     text-align: right;
+  }
+  
+  header #block-dstwr-account-menu .menu__item {
+    padding-bottom: 10px;
   }
 
   main #block-dstwr-main-menu {
-    margin-top: 20px;
+    margin-top: 2px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -39,7 +43,6 @@
   }
 
   main #block-dstwr-main-menu .menu__link {
-    margin-top: 0px;
     text-align: center;
     width: auto;
   }
