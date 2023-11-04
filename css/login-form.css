@@ -1,4 +1,5 @@
-form {
+#user-login-form, #user-pass
+{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -17,7 +18,8 @@ form {
     z-index: 1;
   }
   
-form .form-item {
+#user-login-form .form-item, #user-pass .form-item
+{
   margin-top: 4px;
   margin-bottom: 4px;
   width: 300px;
@@ -26,18 +28,20 @@ form .form-item {
   align-items: center;
 }
 
-form .form-required {
+#user-login-form .form-required, #user-pass .form-required
+{
   margin: 4px;
   font-size: large;
   font-weight: bold;
 }
 
-form .description
+#user-login-form .description, #user-pass .description
 {
   font-size: x-small;
 }
 
-form .form-text {
+#user-login-form .form-text, #user-pass .form-text
+{
   margin: 4px;
   padding: 4px;
   width: 240px;
@@ -46,7 +50,8 @@ form .form-text {
   text-align: center;
 }
 
-form .form-submit {
+#user-login-form .form-submit, #user-pass .form-submit
+{
   margin: 20px;
   width: 140px;
   height: 40px;
