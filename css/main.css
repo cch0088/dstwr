@@ -12,14 +12,14 @@ code {
     monospace;
 }
 
-header {
+#block-dstwr-site-branding {
   position: relative;
   background: rgba(0,0,0,0.8);
   height: 48px;
   box-shadow: 0px 8px 8px lightgray;
 }
 
-header #site-name {
+#site-name {
   position: relative;
   left: 30px;
   top: 12px;
@@ -32,7 +32,7 @@ header #site-name {
   margin-left: 18px;
 }
 
-header #site-logo img {
+#site-logo img {
   position: relative;
   left: 32px;
   top: 5px;
@@ -40,19 +40,19 @@ header #site-logo img {
   float: left;
 }
 
-header #block-dstwr-account-menu {
+#block-dstwr-account-menu {
   position: relative;
   float: right;
-  top: -5px;
+  top: -52px;
   right: 5px;
 }
 
-header #block-dstwr-account-menu .menu__item {
+#block-dstwr-account-menu .menu__item {
   display: inline-block;
   padding: 2px;
 }
 
-header #block-dstwr-account-menu .menu__link {
+#block-dstwr-account-menu .menu__link {
   color: white;
   background: black;
   border-radius: 8px;
@@ -61,23 +61,23 @@ header #block-dstwr-account-menu .menu__link {
   text-decoration: none;
 }
 
-header #block-dstwr-account-menu .menu__link:hover {
+#block-dstwr-account-menu .menu__link:hover {
   background: #4F8A7C;
 }
 
-main #block-dstwr-main-menu {
+#block-dstwr-main-menu {
   position: absolute;
   transform: translateX(36px);
   width: 120px;
   margin-top: 32px;
 }
 
-main #block-dstwr-main-menu .menu__item {
+#block-dstwr-main-menu .menu__item {
   margin-left: -40px;
   list-style: none;
 }
 
-main #block-dstwr-main-menu .menu__link {
+#block-dstwr-main-menu .menu__link {
   display: inline-block;
   color: black;
   margin: 10px;
@@ -87,19 +87,16 @@ main #block-dstwr-main-menu .menu__link {
   border-bottom: 1px solid transparent;
 }
 
-main #block-dstwr-main-menu .menu__link:hover {
+#block-dstwr-main-menu .menu__link:hover {
   border-bottom: 1px solid;
 }
 
-main #content {
+#content {
   position: relative;
-  left: 60px;
-  top: 30px;
+  left: 90px;
+  top: 10px;
   overflow-y: scroll;
   padding: 20px;
-}
-
-main #content article {
   border-radius: 16px;
   padding: 20px;
   box-shadow: 0px 4px 8px lightgray;
@@ -107,14 +104,14 @@ main #content article {
   margin-top: 20px;
 }
 
-main #content .messages-list {
+#content .messages-list {
   border-radius: 16px;
   padding: 20px;
   box-shadow: 0px 4px 8px lightgray;
   background-color: white;
 }
 
-footer {
+#block-dstwr-poweredbydrupal {
   position: absolute;
   bottom: 0;
   width: 100%;

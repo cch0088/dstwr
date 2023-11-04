@@ -1,13 +1,13 @@
 @media screen and (max-width: 750px) {
-  main #content {
+  #content {
     width: 60%;
   }
   
-  header {
+  #block-dstwr-site-branding {
     height: 77px;
   }
 
-  header #site-name {
+  #site-name {
     top: 5px;
     left: 8px;
     width: 70px;
@@ -17,24 +17,25 @@
     font-size: large;
   }
   
-  header #site-logo img {
+  #site-logo img {
     position: relative;
     top: 8px;
     left: 3px;
     height: 60px;
   }
   
-  header #block-dstwr-account-menu {
+  #block-dstwr-account-menu {
+    top: -84px;
     right: 5px;
     width: 240px;
     text-align: right;
   }
   
-  header #block-dstwr-account-menu .menu__item {
+  #block-dstwr-account-menu .menu__item {
     padding-bottom: 10px;
   }
 
-  main #block-dstwr-main-menu {
+  #block-dstwr-main-menu {
     margin-top: 2px;
     position: relative;
     display: flex;
@@ -42,7 +43,7 @@
     align-items: center;
   }
 
-  main #block-dstwr-main-menu .menu__link {
+  #block-dstwr-main-menu .menu__link {
     text-align: center;
     width: auto;
   }
