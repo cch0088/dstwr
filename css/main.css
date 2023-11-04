@@ -90,6 +90,13 @@ code {
   border-bottom: 1px solid;
 }
 
+#block-dstwr-content {
+  position: relative;
+  top: 10px;
+  left: 100px;
+  float: left;
+}
+
 #block-dstwr-poweredbydrupal {
   position: absolute;
   bottom: 0;
