@@ -36,11 +36,9 @@
   }
 
   #block-dstwr-main-menu {
-    margin-top: 2px;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    top: -50px;
+    display: inline;
   }
 
   #block-dstwr-main-menu .menu__link {
