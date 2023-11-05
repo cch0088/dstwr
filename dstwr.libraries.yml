@@ -7,6 +7,7 @@ global-styling:
     component:
       css/login-form.css: {}
       css/forum.css: {}
+      css/extra.css: {}
   js:
     js/main.js: {}
   dependencies:
