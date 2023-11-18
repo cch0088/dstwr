@@ -1,4 +1,4 @@
-#forum-topic-2, .forum-content {
+.forum-content {
   width: 100%;
   position: relative;
   top: 10px;
@@ -8,9 +8,6 @@
 
 .forum-heading {
   padding: 10px;
-}
-
-.forum-head {
   background-color: lightgray;
 }
 

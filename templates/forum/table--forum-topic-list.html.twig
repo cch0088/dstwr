@@ -17,7 +17,7 @@
 
   {% if header %}
     <thead>
-      <tr class="forum-head">
+      <tr>
         {% for cell in header %}
           <{{ cell.tag }}{{ cell.attributes }}>
             {{- cell.content -}}
