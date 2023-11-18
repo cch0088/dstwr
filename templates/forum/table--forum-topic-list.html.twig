@@ -16,8 +16,8 @@
   {% endfor %}
 
   {% if header %}
-    <thead class="forum-heading">
-      <tr>
+    <thead>
+      <tr class="forum-heading">
         {% for cell in header %}
           <{{ cell.tag }}{{ cell.attributes }}>
             {{- cell.content -}}
