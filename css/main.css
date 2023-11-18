@@ -92,8 +92,9 @@ code {
 
 #block-dstwr-content {
   position: relative;
+  width: 80%;
   top: 10px;
-  left: 100px;
+  left: 120px;
   float: left;
 }
 
