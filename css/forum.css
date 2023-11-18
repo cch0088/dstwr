@@ -1,8 +1,8 @@
-table {
+.forum-content {
+  width: 100%;
   position: relative;
   top: 10px;
   background-color: white;
-  width: 70%;
   border-collapse: collapse;
 }
 
