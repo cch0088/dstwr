@@ -32,48 +32,46 @@
  * @ingroup themeable
  */
 #}
-<div id="box-content">
-  <table class="forum-content">
-    <thead class="forum-head">
-      <tr>
-        <th class="forum-heading">{{ 'Forum'|t }}</th>
-        <th class="forum-heading">{{ 'Topics'|t }}</th>
-        <th class="forum-heading">{{ 'Posts'|t }}</th>
-        <th class="forum-heading">{{ 'Last post'|t }}</th>
-      </tr>
-    </thead>
-    <tbody class="forum-body">
-    {% for child_id, forum in forums %}
-      <tr>
-        <td class="forum-title" {% if forum.is_container == true %} colspan="4"{% endif %}>
-          {#
-            Enclose the contents of this cell with X divs, where X is the
-            depth this forum resides at. This will allow us to use CSS
-            left-margin for indenting.
-          #}
-          {% if forum.depth > 0 %}{% for i in 1..forum.depth %}<div class="indent">{% endfor %}{% endif %}
-            <div title="{{ forum.icon_title }}">
-              <span class="visually-hidden">{{ forum.icon_title }}</span>
-            </div>
-            <div><a href="{{ forum.link }}">{{ forum.label }}</a></div>
-            {% if forum.description.value %}
-              <div>{{ forum.description.value }}</div>
-            {% endif %}
-          {% if forum.depth > 0 %}{% for i in 1..forum.depth %}</div>{% endfor %}{% endif %}
+<table class="forum-content">
+  <thead class="forum-head">
+    <tr>
+      <th class="forum-heading">{{ 'Forum'|t }}</th>
+      <th class="forum-heading">{{ 'Topics'|t }}</th>
+      <th class="forum-heading">{{ 'Posts'|t }}</th>
+      <th class="forum-heading">{{ 'Last post'|t }}</th>
+    </tr>
+  </thead>
+  <tbody class="forum-body">
+  {% for child_id, forum in forums %}
+    <tr>
+      <td class="forum-title" {% if forum.is_container == true %} colspan="4"{% endif %}>
+        {#
+          Enclose the contents of this cell with X divs, where X is the
+          depth this forum resides at. This will allow us to use CSS
+          left-margin for indenting.
+        #}
+        {% if forum.depth > 0 %}{% for i in 1..forum.depth %}<div class="indent">{% endfor %}{% endif %}
+          <div title="{{ forum.icon_title }}">
+            <span class="visually-hidden">{{ forum.icon_title }}</span>
+          </div>
+          <div><a href="{{ forum.link }}">{{ forum.label }}</a></div>
+          {% if forum.description.value %}
+            <div>{{ forum.description.value }}</div>
+          {% endif %}
+        {% if forum.depth > 0 %}{% for i in 1..forum.depth %}</div>{% endfor %}{% endif %}
+      </td>
+      {% if forum.is_container == false %}
+        <td class="forum-title">
+          {{ forum.num_topics }}
+          {% if forum.new_topics == true %}
+            <br />
+            <a href="{{ forum.new_url }}">{{ forum.new_text }}</a>
+          {% endif %}
         </td>
-        {% if forum.is_container == false %}
-          <td class="forum-title">
-            {{ forum.num_topics }}
-            {% if forum.new_topics == true %}
-              <br />
-              <a href="{{ forum.new_url }}">{{ forum.new_text }}</a>
-            {% endif %}
-          </td>
-          <td>{{ forum.num_posts }}</td>
-          <td>{{ forum.last_reply }}</td>
-        {% endif %}
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-</div>
+        <td>{{ forum.num_posts }}</td>
+        <td>{{ forum.last_reply }}</td>
+      {% endif %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
