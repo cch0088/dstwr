@@ -19,17 +19,17 @@
   color: black;
 }
 
-td {
+.forum-title {
   padding: 8px;
   text-align: center;
 }
 
-td a {
+.forum-title a {
   text-decoration: none;
   color: black;
 }
 
-td a:hover {
+.forum-title a:hover {
   text-decoration: underline;
   color: black;
 }
