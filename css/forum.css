@@ -6,12 +6,15 @@
   border-collapse: collapse;
 }
 
-th {
+.forum-heading {
   padding: 10px;
+}
+
+.forum-head {
   background-color: lightgray;
 }
 
-th a {
+.forum-heading a {
   text-decoration: none;
   color: black;
 }

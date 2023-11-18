@@ -52,7 +52,7 @@
             left-margin for indenting.
           #}
           {% if forum.depth > 0 %}{% for i in 1..forum.depth %}<div class="indent">{% endfor %}{% endif %}
-            <div title="{{ forum.icon_title }}">
+            <div class="forum-title" title="{{ forum.icon_title }}">
               <span class="visually-hidden">{{ forum.icon_title }}</span>
             </div>
             <div><a href="{{ forum.link }}">{{ forum.label }}</a></div>
