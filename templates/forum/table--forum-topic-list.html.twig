@@ -19,9 +19,9 @@
     <thead>
       <tr>
         {% for cell in header %}
-          <{{ cell.tag }}{{ cell.attributes }}>
+          <th class="forum-heading">
             {{- cell.content -}}
-          </{{ cell.tag }}>
+          </th>
         {% endfor %}
       </tr>
     </thead>
@@ -32,9 +32,9 @@
       {% for row in rows %}
         <tr{{ row.attributes }}>
           {% for cell in row.cells %}
-            <{{ cell.tag }}{{ cell.attributes }}>
+            <td class="forum-title">
               {{- cell.content -}}
-            </{{ cell.tag }}>
+            </td>
           {% endfor %}
         </tr>
       {% endfor %}
