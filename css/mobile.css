@@ -20,16 +20,4 @@
     height: 60px;
   }
   
-  #block-dstwr-account-menu {
-    transform: translateX(35px);
-  }
-  
-  #block-dstwr-account-menu .menu__item {
-    padding-bottom: 10px;
-  }
-  
-  #block-dstwr-content {
-    position: relative;
-    top: -75px;
-  }
 }
