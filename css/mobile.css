@@ -21,25 +21,15 @@
   }
   
   #block-dstwr-account-menu {
-    top: -84px;
-    right: 5px;
-    width: 240px;
-    text-align: right;
+    transform: translateX(35px);
   }
   
   #block-dstwr-account-menu .menu__item {
     padding-bottom: 10px;
   }
   
-  #block-dstwr-main-menu {
-    position: relative;
-    top: -50px;
-    width: 80%;
-  }
-  
   #block-dstwr-content {
     position: relative;
-    top: -50px;
+    top: -75px;
   }
-  
 }

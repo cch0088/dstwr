@@ -24,14 +24,15 @@
 }
 
 #block-dstwr-main-menu {
+  margin-top: 60px;
+  transform: translateY(-60px);
   display: flex;
   justify-content: center;
-  transform: translateX(30px);
   height: 50px;
 }
 
 #block-dstwr-main-menu .menu__item {
-  transform: translate(-20px, -3px);
+  transform: translate(-20px, -5px);
   list-style: none;
   float: left;
 }
