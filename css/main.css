@@ -46,6 +46,17 @@ code {
   margin-left: 140px;
 }
 
+#box-content, .views-element-container
+{
+  margin-left: 20px;
+  width: 80%;
+  border-radius: 16px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0px 4px 8px lightgray;
+  background-color: white;
+  margin-top: 20px;
+}
+
 #block-dstwr-poweredbydrupal {
   position: absolute;
   bottom: 0;
