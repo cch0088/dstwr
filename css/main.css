@@ -59,6 +59,10 @@ code {
   padding-bottom: 12px;
 }
 
+#user-section {
+  text-align: center;
+}
+
 .footer-element {
   padding: 1px;
 }
