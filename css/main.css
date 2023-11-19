@@ -40,62 +40,10 @@ code {
   float: left;
 }
 
-#block-dstwr-account-menu {
-  position: relative;
-  float: right;
-  top: -53px;
-  right: 40px;
-}
-
-#block-dstwr-account-menu .menu__item {
-  display: inline-block;
-  padding: 2px;
-}
-
-#block-dstwr-account-menu .menu__link {
-  color: white;
-  background: black;
-  border-radius: 8px;
-  padding: 6px 24px 6px 24px;
-  font-size: small;
-  text-decoration: none;
-}
-
-#block-dstwr-account-menu .menu__link:hover {
-  background: #4F8A7C;
-}
-
-#block-dstwr-main-menu {
-  position: absolute;
-  width: 150px;
-  margin-top: 24px;
-}
-
-#block-dstwr-main-menu .menu__item {
-  list-style: none;
-  transform: translateX(-8px);
-}
-
-#block-dstwr-main-menu .menu__link {
-  display: inline-block;
-  color: black;
-  margin: 10px;
-  padding: 2px;
-  width: 85px;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-}
-
-#block-dstwr-main-menu .menu__link:hover {
-  border-bottom: 1px solid;
-}
-
 #block-dstwr-content {
   position: relative;
-  width: 80%;
-  top: 10px;
-  left: 120px;
-  float: left;
+  top: 20px;
+  margin-left: 140px;
 }
 
 #block-dstwr-poweredbydrupal {
