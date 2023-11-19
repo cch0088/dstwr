@@ -35,4 +35,8 @@
     height: 60px;
   }
   
+  #content {
+    top: -64px;
+  }
+  
 }
