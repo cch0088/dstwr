@@ -1,16 +1,21 @@
 @media screen and (max-width: 750px) {
   #block-dstwr-site-branding {
-    height: 77px;
+    height: 77px;    
   }
   
   #block-dstwr-account-menu {
-    top: -75px;
+    width: 150px;
+    float: right;
+    transform: translate(20px, -36px);
   }
 
   #block-dstwr-account-menu .menu__item {
-    transform: translate(-5px, -10px);
-    margin: 0 0 5px 3px;
-    float: none;
+    padding: 3px;
+  }
+  
+  #block-dstwr-main-menu {
+    position: relative;
+    top: 30px;
   }
 
   #site-name {
