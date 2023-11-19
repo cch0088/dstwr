@@ -1,0 +1,18 @@
+{% extends "block.html.twig" %}
+{#
+/**
+ * @file
+ * TWR theme implementation for Powered by Drupal block.
+ *
+ * The Powered by Drupal block is an optional link to the home page of the
+ * Drupal project.
+ *
+ */
+#}
+{% block content %}
+  <span>
+    {% trans %}Powered by{% endtrans %}
+    <a href="https://www.drupal.org">{% trans %}Drupal{% endtrans %}</a>
+    </span>
+  </span>
+{% endblock %}
