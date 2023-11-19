@@ -24,23 +24,27 @@
 }
 
 #block-dstwr-main-menu {
-  position: absolute;
-  width: 150px;
-  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  transform: translateX(30px);
+  height: 50px;
 }
 
 #block-dstwr-main-menu .menu__item {
+  transform: translate(-20px, -3px);
   list-style: none;
-  transform: translateX(-8px);
+  float: left;
 }
 
 #block-dstwr-main-menu .menu__link {
   display: inline-block;
   color: black;
-  margin: 10px;
+  margin: 0px 10px;
   padding: 2px;
-  width: 85px;
+  width: 100px;
   text-decoration: none;
+  text-align: center;
+  font-size: small;
   border-bottom: 1px solid transparent;
 }
 

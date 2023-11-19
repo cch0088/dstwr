@@ -41,19 +41,9 @@ code {
 }
 
 #block-dstwr-content {
-  position: relative;
-  top: 20px;
-  margin-left: 140px;
-}
-
-#box-content {
-  margin-left: 20px;
-  width: 80%;
-  border-radius: 16px;
   padding: 10px 20px 10px 20px;
   box-shadow: 0px 4px 8px lightgray;
   background-color: white;
-  margin-top: 20px;
 }
 
 #block-dstwr-poweredbydrupal {

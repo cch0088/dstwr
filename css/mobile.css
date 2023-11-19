@@ -30,15 +30,16 @@
   #block-dstwr-account-menu .menu__item {
     padding-bottom: 10px;
   }
-
+  
   #block-dstwr-main-menu {
     position: relative;
     top: -50px;
-    display: inline;
+    width: 80%;
   }
-
-  #block-dstwr-main-menu .menu__link {
-    text-align: center;
-    width: auto;
+  
+  #block-dstwr-content {
+    position: relative;
+    top: -50px;
   }
+  
 }
