@@ -1,21 +1,27 @@
 #block-dstwr-account-menu {
   position: relative;
-  float: right;
-  top: -53px;
-  right: 40px;
+  top: -38px;
+  display: flex;
+  justify-content: right;
+  height: 30px;
 }
 
 #block-dstwr-account-menu .menu__item {
-  display: inline-block;
-  padding: 2px;
+  transform: translate(-20px, -15px);
+  margin: 0 3px;
+  list-style: none;
+  float: left;
 }
 
 #block-dstwr-account-menu .menu__link {
   color: white;
+  display: inline-block;
+  width: 70px;
   background: black;
   border-radius: 8px;
   padding: 6px 24px 6px 24px;
   font-size: small;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -25,7 +31,7 @@
 
 #block-dstwr-main-menu {
   margin-top: 60px;
-  transform: translateY(-60px);
+  transform: translateY(-90px);
   display: flex;
   justify-content: center;
   height: 50px;
