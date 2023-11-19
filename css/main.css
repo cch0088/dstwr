@@ -46,8 +46,7 @@ code {
   margin-left: 140px;
 }
 
-#box-content, .views-element-container
-{
+#box-content {
   margin-left: 20px;
   width: 80%;
   border-radius: 16px;
