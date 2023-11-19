@@ -2,6 +2,16 @@
   #block-dstwr-site-branding {
     height: 77px;
   }
+  
+  #block-dstwr-account-menu {
+    top: -75px;
+  }
+
+  #block-dstwr-account-menu .menu__item {
+    transform: translate(-5px, -10px);
+    margin: 0 0 5px 3px;
+    float: none;
+  }
 
   #site-name {
     top: 5px;
