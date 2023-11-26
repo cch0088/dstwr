@@ -58,3 +58,21 @@
 #block-dstwr-main-menu .menu__link:hover {
   border-bottom: 1px solid;
 }
+
+#block-dstwr-searchform {
+  width: 200px;
+  float: right;
+  transform: translateY(-38px);
+}
+
+#block-dstwr-searchform input {
+  background-color: black;
+  color: white;
+  border: 0px;
+  padding: 4px;
+  margin: 2px;
+}
+
+#block-dstwr-searchform .form-item {
+  float: left;
+}

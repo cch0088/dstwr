@@ -17,7 +17,7 @@
   z-index: 1;
 }
 
-#edit-mail, .form-text {
+#edit-mail, #user-login-form .form-text {
   margin: 2px;
   padding: 2px;
   width: 240px;
@@ -26,13 +26,13 @@
   text-align: center;
 }
 
-#edit-mail, .form-required {
+#edit-mail, #user-login-form .form-required {
   margin: 4px;
   font-size: medium;
   font-weight: bold;
 }
 
-.form-item {
+#user-login-form .form-item {
   margin-top: 1px;
   margin-bottom: 1px;
   width: 320px;
@@ -41,22 +41,22 @@
   align-items: center;
 }
 
-.description, .js-form-item {
+#user-login-form .description, #user-login-form .js-form-item {
   font-size: x-small;
 }
 
-.form-submit {
+#user-login-form .form-submit {
   margin: 10px;
   padding: 2px 8px 2px 8px;
   font-weight: bold;
   font-size: medium;
 }
 
-.password-strength {
+#user-login-form .password-strength {
   font-size: x-small;
 }
 
-.password-suggestions {
+#user-login-form .password-suggestions {
   font-size: x-small;
   text-align: left;
 }
