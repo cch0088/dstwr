@@ -40,6 +40,10 @@ code {
   float: left;
 }
 
+#block-dstwr-content {
+  text-align: center;
+}
+
 #content {
   position: relative;
   top: -92px;
