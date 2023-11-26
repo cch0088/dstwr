@@ -1,3 +1,31 @@
+.forum-head {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.forum-head a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.forum-body {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.forum-comment {
+  margin: 10px;
+  padding: 10px;
+}
+
+#author-content {
+  margin: 10px;
+  padding: 10px;
+  font-size: small;
+}
+
 .action-links {
   list-style: none;
 }
@@ -48,3 +76,4 @@
   text-decoration: underline;
   color: black;
 }
+
