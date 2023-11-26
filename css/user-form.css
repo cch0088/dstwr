@@ -1,4 +1,4 @@
-#user-register-form, #user-login-form {
+#user-login-form, #user-register-form {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -17,7 +17,7 @@
   z-index: 1;
 }
 
-#edit-mail, #user-login-form .form-text {
+#edit-mail, #user-login-form .form-text, #user-register-form .form-text {
   margin: 2px;
   padding: 2px;
   width: 240px;
@@ -26,13 +26,13 @@
   text-align: center;
 }
 
-#edit-mail, #user-login-form .form-required {
+#edit-mail, #user-login-form .form-required, #user-register-form .form-required {
   margin: 4px;
   font-size: medium;
   font-weight: bold;
 }
 
-#user-login-form .form-item {
+#user-login-form .form-item, #user-register-form .form-item {
   margin-top: 1px;
   margin-bottom: 1px;
   width: 320px;
@@ -41,22 +41,22 @@
   align-items: center;
 }
 
-#user-login-form .description, #user-login-form .js-form-item {
+#user-login-form .description, #user-register-form .js-form-item {
   font-size: x-small;
 }
 
-#user-login-form .form-submit {
+#user-login-form .form-submit, #user-register-form .form-submit {
   margin: 10px;
   padding: 2px 8px 2px 8px;
   font-weight: bold;
   font-size: medium;
 }
 
-#user-login-form .password-strength {
+#user-register-form .password-strength {
   font-size: x-small;
 }
 
-#user-login-form .password-suggestions {
+#user-register-form .password-suggestions {
   font-size: x-small;
   text-align: left;
 }
