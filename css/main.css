@@ -76,3 +76,7 @@ code {
 .footer-element {
   padding: 1px;
 }
+
+.messages-list {
+  text-align: center;
+}
