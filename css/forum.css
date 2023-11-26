@@ -1,21 +1,21 @@
-.forum-head {
+.forum-box-head {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.forum-head a {
+.forum-box-head a {
   padding: 10px;
   text-decoration: none;
 }
 
-.forum-body {
+.forum-box-body {
   margin: 20px;
   padding: 10px;
   border: 1px solid black;
 }
 
-.forum-comment {
+.forum-box-comment {
   margin: 10px;
   padding: 10px;
 }
