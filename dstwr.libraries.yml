@@ -5,7 +5,7 @@ global-styling:
       css/main.css: {}
       css/mobile.css: {}
     component:
-      css/login-form.css: {}
+      css/user-form.css: {}
       css/forum.css: {}
       css/menu.css: {}
   js:
