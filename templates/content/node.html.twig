@@ -77,6 +77,10 @@
     {% endif %}
     {{ title_suffix }}
 
+    <div{{ content_attributes }}>
+      {{ content }}
+    </div>
+
     {% if display_submitted %}
       <div id="author-content">
         {{ author_picture }}
@@ -86,9 +90,5 @@
         </div>
       </div>
     {% endif %}
-
-    <div{{ content_attributes }}>
-      {{ content }}
-    </div>
   </article>
 </div>
